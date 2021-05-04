@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
 *{
   padding: 0%;
   margin: 0%;
   border: transparent;
+  font-family: 'Montserrat', sans-serif;
 }
 #carrouselImage{
   filter: brightness(50%);
@@ -38,6 +41,18 @@
   
 }
 #Hello h1{
+  font-weight: 700;
   line-height: 0.9;
   font-size: 40vh;
+}
+#MainContent{
+  background-color: cornflowerblue;
+}
+#MainContent p{
+  margin:10px 50px;
+}
+#PostMedia{
+  padding:0px 20px;
+  width: 100%;
+  height: 50vh;
 }

@@ -33,8 +33,9 @@ class Hello extends Component {
                 </Slider>
                 <Col id="Hello">
                     <h1>Hello!</h1>
-                    <h2>We are Team Red Panda :)</h2>
+                    <h2>Noi suntem Red Panda :)</h2>
                 </Col>
+                <Jumbotron></Jumbotron>
             </Col>
         );
     }
