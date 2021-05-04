@@ -1,0 +1,43 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  border: transparent;
+}
+#carrouselImage{
+  filter: brightness(50%);
+  object-fit: cover;
+  height: 80vh;
+}
+.flickity-button:hover{
+  background: transparent;
+}
+.flickity-button{
+  background: transparent;
+}
+.flickity-button-icon {
+  fill: transparent;
+}
+.flickity-page-dots {
+  bottom: 25px;
+}
+.flickity-page-dots .dot {
+  width: 13px;
+  height: 13px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+#Hello{
+  color:white;
+  text-align: center;
+  position: absolute;
+  top: 20vh;
+  
+}
+#Hello h1{
+  line-height: 0.9;
+  font-size: 40vh;
+}
