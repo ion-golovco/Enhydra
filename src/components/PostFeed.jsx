@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container } from "reactstrap";
+
 
 let Posts = [
     {
@@ -30,7 +30,7 @@ class PostFeed extends Component {
         );
     }
     render() {
-        return <Container id="MainContent">{Posts.map((n) => this.postCreate(n))}</Container>;
+        return <div id="MainContent">{Posts.map((n) => this.postCreate(n))}</div>;
     }
 }
 

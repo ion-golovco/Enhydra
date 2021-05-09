@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
 
 *{
-  padding: 0%;
-  margin: 0%;
   border: transparent;
   font-family: 'Montserrat', sans-serif;
+}
+img {
+  -webkit-user-drag: none;
 }
 #carrouselImage{
   filter: brightness(50%);
@@ -38,21 +39,40 @@
   text-align: center;
   position: absolute;
   top: 20vh;
-  
+  user-select: none;
 }
 #Hello h1{
   font-weight: 700;
   line-height: 0.9;
-  font-size: 40vh;
+  font-size: 20vw;
 }
 #MainContent{
+  padding: 0%;
   background-color: cornflowerblue;
 }
 #MainContent p{
   margin:10px 50px;
 }
 #PostMedia{
-  padding:0px 20px;
   width: 100%;
   height: 50vh;
+}
+#Tag{
+  position: absolute;
+  top: -60px;
+  left:15%;
+}
+#Tag img{
+  width: 10vw;
+  transition: 0.5s;
+}
+#Tag:hover img{
+  transform: translateY(30px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#SideBar{
+  padding: 0%;
+  margin: 0%;
+  background-color: brown;
 }

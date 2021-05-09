@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import { Col, Jumbotron } from "reactstrap";
 import Slider from "./Slider";
+const flickityOptions = {
+    autoPlay: 4000,
+    pauseAutoPlayOnHover: true,
+    wrapAround: true,
+    fullscreen: true,
+    adaptiveHeight: false,
+    draggable: false
+}
 
 class Hello extends Component {
     render() {
         return (
             <Col>
                 <Slider
-                    options={{
-                        autoPlay: 4000,
-                        pauseAutoPlayOnHover: true,
-                        wrapAround: true,
-                        fullscreen: true,
-                        adaptiveHeight: false,
-                    }}
+                    options={flickityOptions}
                 >
                     <img
                         id="carrouselImage"

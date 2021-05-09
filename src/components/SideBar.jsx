@@ -5,7 +5,7 @@ import {} from 'reactstrap'
 class SideBar extends Component {
     state = {  }
     render() { 
-        return ( <div></div> );
+        return ( <div id='SideBar'>aaa</div> );
     }
 }
  
