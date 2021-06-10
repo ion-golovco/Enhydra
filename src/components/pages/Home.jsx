@@ -7,7 +7,6 @@ import PostFeed from "../PostFeed";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 function App() {
   return (
     <div style={{ "background-color": "#232523" }}>
@@ -24,6 +23,7 @@ function App() {
           </Row>
         </Col>
       </Row>
+	  
     </div>
   );
 }

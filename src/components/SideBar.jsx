@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class SideBar extends Component {
   state = {};
   render() {
@@ -16,7 +15,7 @@ class SideBar extends Component {
             Ciprian - Mb programer
           </ul>
           <a href="/gallery">
-          <h2>Gallery</h2>
+            <h2>Gallery</h2>
           </a>
           random images
         </p>

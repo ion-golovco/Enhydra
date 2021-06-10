@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Col, UncontrolledCarousel} from "reactstrap";
-import {helloMedia } from "./libraries/content";
+import { Col, UncontrolledCarousel } from "reactstrap";
+import { helloMedia } from "./libraries/content";
 
 class Hello extends Component {
   render() {
