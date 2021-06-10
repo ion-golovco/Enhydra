@@ -9,7 +9,7 @@ class SideBar extends Component {
         <p id="text">
           <h2>Our Team</h2>
           <ul>
-            Ion - Absolute debil
+            Ion - Absolute unit
             <br />
             Alex - Analylicts
             <br />
