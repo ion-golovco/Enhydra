@@ -1,34 +1,20 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
-import Hello from "./components/Hello";
-import Sidebar from "./components/SideBar";
-import PostFeed from "./components/PostFeed";
-import TagLink from "./components/TagLink"
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import  Gallery from "./components/pages/Gallery";
+import Home from "./components/pages/Home"
+
 
 function App() {
-    return (
-        <div>
-            
-            <Hello />
-            <Row>
-                <Col sm={{ size: "10", offset: 1 }} xs="12">
-                    <Row>
-                    <Col sm="9" xs="12">
-                        <PostFeed />
-                    </Col>
-                    <Col sm="3" xs="0">
-                        <Sidebar />
-                    </Col>
-                    </Row>
-                </Col>
-                
-            </Row>
-            
-            <TagLink />
-        </div>
-    );
+  return (
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+          <Route path="/gallery" exact component={() => <Gallery />} />
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

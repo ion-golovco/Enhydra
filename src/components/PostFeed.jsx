@@ -1,16 +1,6 @@
 import React, { Component } from "react";
+import Posts from './libraries/content';
 
-
-let Posts = [
-    {
-        media: "https://www.youtube.com/embed/UnIhRpIT7nc",
-        text: "hello there general kennoby",
-    },
-    {
-        media: "https://www.youtube.com/embed/UnIhRpIT7nc",
-        text: "hello there general kennoby",
-    },
-];
 class PostFeed extends Component {
     state = {};
     postCreate(post) {
@@ -21,11 +11,11 @@ class PostFeed extends Component {
         return (
             <div>
                 {video ? (
-                    <iframe id="PostMedia" title={post.media[0]} src={post.media}></iframe>
+                    <iframe id="PostMedia" title={post.media} src={post.media}></iframe>
                 ) : (
                     <img id="PostMedia" alt="postImage" src={post.media} />
                 )}
-                <p>{post.text}</p>
+                <p id="text">{post.text}</p>
             </div>
         );
     }
